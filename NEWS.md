@@ -1,5 +1,9 @@
 # partialling.out (development version)
 
+Added plot method, with associated snapshot tests
+Refactored the main function for better code efficiency
+Added ROpensci reviewers to package description.
+
 ## partialling.out 0.0.1
 
 First version

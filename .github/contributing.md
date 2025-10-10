@@ -43,6 +43,4 @@ See our guide on [how to create a great issue](https://code-review.tidyverse.org
 
 ## Code of Conduct
 
-Please note that the partialling.out project is released with a
-[Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this
-project you agree to abide by its terms.
+Please note that this package is released with a [Contributor Code of Conduct](https://ropensci.org/code-of-conduct/). By contributing to this project, you agree to abide by its terms.

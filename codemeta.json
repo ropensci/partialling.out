@@ -4,15 +4,17 @@
   "identifier": "partialling.out",
   "description": "Creates a data frame with the residuals of partial regressions of the main explanatory variable and the variable of interest. This method follows the Frisch-Waugh-Lovell theorem, as explained in Lovell (2008) <doi:10.3200/JECE.39.1.88-91>.",
   "name": "partialling.out: Residuals from partial regressions",
-  "codeRepository": "https://github.com/marcboschmatas/partialling.out",
+  "relatedLink": "https://docs.ropensci.org/partialling.out",
+  "codeRepository": "https://github.com/ropensci/partialling.out",
+  "issueTracker": "https://github.com/ropensci/partialling.out/issues",
   "license": "https://spdx.org/licenses/GPL-3.0",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.4.3 (2025-02-28)",
+  "runtimePlatform": "R version 4.5.1 (2025-06-13)",
   "author": [
     {
       "@type": "Person",
@@ -43,6 +45,18 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=tinytest"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "tinysnapshot",
+      "name": "tinysnapshot",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=tinysnapshot"
     },
     {
       "@type": "SoftwareApplication",
@@ -94,15 +108,87 @@
     },
     {
       "@type": "SoftwareApplication",
-      "identifier": "tinyplot",
-      "name": "tinyplot",
+      "identifier": "fwlplot",
+      "name": "fwlplot",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
         "name": "Comprehensive R Archive Network (CRAN)",
         "url": "https://cran.r-project.org"
       },
-      "sameAs": "https://CRAN.R-project.org/package=tinyplot"
+      "sameAs": "https://CRAN.R-project.org/package=fwlplot"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "tsibble",
+      "name": "tsibble",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=tsibble"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "units",
+      "name": "units",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=units"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "purrr",
+      "name": "purrr",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=purrr"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "fontquiver",
+      "name": "fontquiver",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=fontquiver"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "rsvg",
+      "name": "rsvg",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=rsvg"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "svglite",
+      "name": "svglite",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=svglite"
     }
   ],
   "softwareRequirements": {
@@ -171,11 +257,28 @@
       "identifier": "stats",
       "name": "stats"
     },
+    "7": {
+      "@type": "SoftwareApplication",
+      "identifier": "tinyplot",
+      "name": "tinyplot",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=tinyplot"
+    },
     "SystemRequirements": null
   },
-  "fileSize": "58.427KB",
-  "relatedLink": "https://marcboschmatas.github.io/partialling.out/",
-  "releaseNotes": "https://github.com/marcboschmatas/partialling.out/blob/master/NEWS.md",
-  "readme": "https://github.com/marcboschmatas/partialling.out/blob/main/README.md",
-  "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html#experimental"
+  "fileSize": "200.383KB",
+  "releaseNotes": "https://github.com/ropensci/partialling.out/blob/master/NEWS.md",
+  "readme": "https://github.com/ropensci/partialling.out/blob/main/README.md",
+  "contIntegration": ["https://app.codecov.io/gh/ropensci/partialling.out", "https://github.com/ropensci/partialling.out/actions/workflows/R-CMD-check.yaml"],
+  "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html#experimental",
+  "review": {
+    "@type": "Review",
+    "url": "https://github.com/ropensci/software-review/issues/703",
+    "provider": "https://ropensci.org"
+  }
 }

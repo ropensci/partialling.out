@@ -10,8 +10,8 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 [![CRAN
 status](https://www.r-pkg.org/badges/version/partialling.out)](https://CRAN.R-project.org/package=partialling.out)
 [![Codecov test
-coverage](https://codecov.io/gh/marcboschmatas/partialling.out/graph/badge.svg)](https://app.codecov.io/gh/marcboschmatas/partialling.out)
-[![R-CMD-check](https://github.com/marcboschmatas/partialling.out/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/marcboschmatas/partialling.out/actions/workflows/R-CMD-check.yaml)
+coverage](https://codecov.io/gh/marcboschmatas/partialling.out/graph/badge.svg)](https://app.codecov.io/gh/ropensci/partialling.out)
+[![R-CMD-check](https://github.com/marcboschmatas/partialling.out/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ropensci/partialling.out/actions/workflows/R-CMD-check.yaml)
 [![Status at rOpenSci Software Peer
 Review](https://badges.ropensci.org/703_status.svg)](https://github.com/ropensci/software-review/issues/703)
 <!-- badges: end -->
@@ -79,6 +79,12 @@ You can install the development version of partialling.out from
 ``` r
 # install.packages("pak")
 pak::pak("marcboschmatas/partialling.out")
+```
+
+Or, from R-Universe with
+
+``` r
+install.packages("partialling.out", repos = c('https://ropensci.r-universe.dev', 'https://cloud.r-project.org'))
 ```
 
 ## Examples
@@ -163,6 +169,10 @@ print(c(model$coefficients[2], resmodel$coefficients[2]))
 Contributing instructions can be found
 [here](https://github.com/marcboschmatas/partialling.out/blob/main/.github/contributing.md)
 
+Please note that this package is released with a [Contributor Code of
+Conduct](https://ropensci.org/code-of-conduct/). By contributing to this
+project, you agree to abide by its terms.
+
 ## Acknowledgements
 
 To the authors of the [fwlplot](https://github.com/kylebutts/fwlplot)
@@ -170,3 +180,6 @@ package, Kyle Butts and Grant McDermott, which has provided inspiration
 and ideas for this project.
 
 To my colleague Andreu Arenas-Jal for his insight and guiding.
+
+To the ROpensci editors Mark Padgham and Nima Hejazi and to the
+reviewers Christian Testa, Kyle Butts, and Adam Loy.
