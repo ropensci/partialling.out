@@ -11,3 +11,4 @@
 ^\.github$
 ^codemeta\.json$
 ^.lintr$
+^CRAN-SUBMISSION$
