@@ -10,8 +10,8 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 [![CRAN
 status](https://www.r-pkg.org/badges/version/partialling.out)](https://CRAN.R-project.org/package=partialling.out)
 [![Codecov test
-coverage](https://codecov.io/gh/marcboschmatas/partialling.out/graph/badge.svg)](https://app.codecov.io/gh/ropensci/partialling.out)
-[![R-CMD-check](https://github.com/marcboschmatas/partialling.out/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ropensci/partialling.out/actions/workflows/R-CMD-check.yaml)
+coverage](https://codecov.io/gh/ropensci/partialling.out/graph/badge.svg)](https://app.codecov.io/gh/ropensci/partialling.out)
+[![R-CMD-check](https://github.com/ropensci/partialling.out/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ropensci/partialling.out/actions/workflows/R-CMD-check.yaml)
 [![Status at rOpenSci Software Peer
 Review](https://badges.ropensci.org/703_status.svg)](https://github.com/ropensci/software-review/issues/703)
 <!-- badges: end -->
@@ -167,7 +167,7 @@ print(c(model$coefficients[2], resmodel$coefficients[2]))
 ## Contributing
 
 Contributing instructions can be found
-[here](https://github.com/marcboschmatas/partialling.out/blob/main/.github/contributing.md)
+[here](https://github.com/ropensci/partialling.out/blob/main/.github/contributing.md)
 
 Please note that this package is released with a [Contributor Code of
 Conduct](https://ropensci.org/code-of-conduct/). By contributing to this

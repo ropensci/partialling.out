@@ -12,7 +12,7 @@ Authors@R:
             comment = "Adam reviewed the package (v. 0.1.1) for rOpenSci, see <https://github.com/ropensci/software-review/issues/703>"))
 Description: Creates a data frame with the residuals of partial regressions of the main explanatory variable and the variable of interest. This method follows the Frisch-Waugh-Lovell theorem, as explained in Lovell (2008) <doi:10.3200/JECE.39.1.88-91>.
 License: GPL (>= 3)
-BugReports: https://github.com/ropensci/partialling.out/issues
+BugReports: https://github.com/ropensci/partialling.out/issues/
 Suggests: 
     tinytest,
     tinysnapshot,
@@ -40,4 +40,4 @@ Imports:
     lfe,
     stats,
     tinyplot
-URL: https://docs.ropensci.org/partialling.out, https://github.com/ropensci/partialling.out
+URL: https://docs.ropensci.org/partialling.out/, https://github.com/ropensci/partialling.out/
