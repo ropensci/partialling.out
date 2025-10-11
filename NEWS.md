@@ -1,4 +1,4 @@
-# partialling.out (development version)
+# partialling.out 0.2.0
 
 Added plot method, with associated snapshot tests
 Refactored the main function for better code efficiency
