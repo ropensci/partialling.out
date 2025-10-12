@@ -4,20 +4,28 @@
 \name{partialling.out-package}
 \alias{partialling.out}
 \alias{partialling.out-package}
-\title{partialling.out: Residuals from partial regressions}
+\title{partialling.out: Residuals from Partial Regressions}
 \description{
 Creates a data frame with the residuals of partial regressions of the main explanatory variable and the variable of interest. This method follows the Frisch-Waugh-Lovell theorem, as explained in Lovell (2008) \doi{10.3200/JECE.39.1.88-91}.
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://marcboschmatas.github.io/partialling.out/}
-  \item Report bugs at \url{https://github.com/marcboschmatas/partialling.out/issues}
+  \item \url{https://docs.ropensci.org/partialling.out/}
+  \item \url{https://github.com/ropensci/partialling.out/}
+  \item Report bugs at \url{https://github.com/ropensci/partialling.out/issues/}
 }
 
 }
 \author{
 \strong{Maintainer}: Marc Bosch-Matas \email{mboschmatas@gmail.com} (\href{https://orcid.org/0009-0008-8653-0577}{ORCID})
+
+Other contributors:
+\itemize{
+  \item Christian Testa (Christian reviewed the package (v. 0.1.1) for rOpenSci, see <https://github.com/ropensci/software-review/issues/703>) [reviewer]
+  \item Kyle Butts (Kyle reviewed the package (v. 0.1.1) for rOpenSci, see <https://github.com/ropensci/software-review/issues/703>) [reviewer]
+  \item Adam Loy (Adam reviewed the package (v. 0.1.1) for rOpenSci, see <https://github.com/ropensci/software-review/issues/703>) [reviewer]
+}
 
 }
 \keyword{internal}

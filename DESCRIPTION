@@ -1,5 +1,5 @@
 Package: partialling.out
-Title: Residuals from partial regressions
+Title: Residuals from Partial Regressions
 Version: 0.2.0
 Authors@R: 
     c(person("Marc", "Bosch-Matas", , "mboschmatas@gmail.com", role = c("aut", "cre"),
