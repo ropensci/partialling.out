@@ -73,6 +73,12 @@ visualised via a scatterplot or further used in other models.
 
 ## Installation
 
+The package can be installed with:
+
+``` r
+install.packages("partialling.out")
+```
+
 You can install the development version of partialling.out from
 [GitHub](https://github.com/) with:
 
